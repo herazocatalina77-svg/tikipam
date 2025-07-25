@@ -1,0 +1,7 @@
+Inicio
+Celsius
+Fahrenheit
+Mostrar "Ingrese los grados celsius"
+Leer Celsiusfahrenheit= celsius x 9/5 + 32
+Mostrar celsius +"grados celsius corresponden a "+ fahrenheit" + "grados fahrenheit
+Fin
