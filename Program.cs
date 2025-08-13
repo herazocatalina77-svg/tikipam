@@ -6,25 +6,25 @@ public class Program
     {
         string nombre = "";
         int sueldo = 0;
-        Console.WriteLine("Ingrese el nombre");
+        Console.WriteLine("Ingrese el nombre"); 
         nombre = Console.ReadLine();
         Console.WriteLine("Ingrese el sueldo");
         sueldo = Int32.Parse(Console.ReadLine());
         if (sueldo < 3000)
         {
             //Verdadero
-            Console.WriteLine($"La persona (nombre), debe abonar impuestos");
+            Console.WriteLine($"La persona (nombre), debe abonar impuestos"); // TODO: siempre va a mostrar lo siguiente "La persona (nombre), debe abonar impuestos"
         }
         else
         {
             //False
-            Console.WriteLine($"La persona (nombre), no abona impuestos");
+            Console.WriteLine($"La persona (nombre), no abona impuestos"); // TODO: Siempre va a mostrar "La persona (nombre), no abona impuestos"
         }
     }
     static void Second(string[] args)
     {
         int edad = 0;
-        Console.WriteLine("Ingrese edad");
+        Console.WriteLine("Ingrese edad"); // TODO: Entre la linea 27 y 28 falta algo.. que es?
         if (edad < 18)
         {
             //Verdadero
